@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "namestyle_plus",
+  "version": "1.0.0",
+  "name": "NameStyle Plus",
+  "description": "Addon fuer NameStyle: Tags fett/kursiv/unterstrichen, neue schwarz-weisse Oberflaeche und ein Saettigungs-Regler.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.namestyleplus.PlusClient"] },
+  "mixins": [{ "config": "namestyleplus.mixins.json", "environment": "client" }],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "namestyle": ">=1.0.0"
+  }
+}
