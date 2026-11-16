@@ -16,7 +16,7 @@ jobs:
           java-version: 25
 
       - name: Projekt zusammenbauen
-        run: bash scripts/assemble.sh
+        run: bash assemble.sh
 
       - name: Kompilieren
         working-directory: _proj
